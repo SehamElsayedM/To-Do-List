@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-top: 100px;
+    background-color: rgba(222, 243, 255, 0.523);
+}
+.container{
+    text-align: center;
+}
+.container .row{
+    border-radius: 20px;
+
+    background: rgba(110, 204, 241, 0.979);
+    margin: auto;
+    width: 40%;
+    display: flex;
+}
+
+.container .row .form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+ input{
+    width: 100%;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+
+}
+.container .row .form button{
+    background-color: rgba(16, 48, 65, 0.397);
+    border: 0px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container #tasks .row{
+    background-color: rgba(47, 173, 222, 0.553);
+    margin: auto;
+    margin-top: 10px;
+    width: 40%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action button{
+    background-color: rgba(0, 0, 0, 0.432);
+    border: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.action button i{font-size: 10px;}
+.action .btn-success i{ color: green;}
+.action .btn-danger i{color: rgb(181, 6, 6);}
+
+@media (max-width:750px){
+    .container .row{width: 90%;margin-bottom: 50px;}
+    .container #tasks .row{width: 90%;font-size: 10px;}
+    .container #tasks .row .action button{width: 50px;}
+}
+
+
+
+/* *********** */
+.btn {
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(190, 187, 187);
+    padding: 10px;
+    position: absolute;
+    bottom:90% ;right:20px ;
+
+}
+
+.btn-dark {
+    color: black;
+    background-color: rgb(104, 157, 184);
+}
+
+.btn-light {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.806);
+}
+
+.body-dark {
+    background-color: rgba(0, 0, 0, 0.806);
+
+}
